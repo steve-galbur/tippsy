@@ -1,12 +1,12 @@
 module Tippsy
   class Builder
-    def initialize total:, gratuitiy:
+    def initialize total:, gratuity:
       @total = total
-      @gratuity = gratuitiy
+      @gratuity = gratuity
     end
 
     def calculate
-      @total * @gratuity
+      @total + (@total * @gratuity)
     end
   end
 end
