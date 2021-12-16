@@ -4,7 +4,7 @@ require_relative "lib/tippsy/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "tippsy"
-  spec.version       = Tippy::VERSION
+  spec.version       = Tippsy::VERSION
   spec.authors       = ["Veaceslav Galbur"]
   spec.email         = ["sgalbur@hotmail.com"]
 
